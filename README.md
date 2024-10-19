@@ -25,12 +25,6 @@ Instale o Rust:
 curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
 ```
 
-Após a instalação, execute:
-
-```
-cargo run
-```
-
 Agora instale o GTK4 e a uma dependencia necessária.
 
 ```
@@ -39,6 +33,12 @@ sudo apt update
 
 ```
 sudo apt install libgtk-4-dev build-essential
+```
+
+Após a instalação, execute:
+
+```
+cargo run
 ```
 
 # Tecnologias utilizadas
